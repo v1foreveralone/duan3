@@ -23,16 +23,25 @@ section#left-page{
 	width: 750px;
 	padding: 10px;
 	float: left;
-	background-color: blue;
+	/*background-color: blue;*/
 }
 
 aside{
 	width: 250px;
 	padding: 10px;
 	float: right;
-	background-color: green;
+	/*background-color: green;*/
 }
 .clr{clear:both;}
 footer#under-page{
 	background-color: #252525;
+}
+/*khoi*/
+.block{
+	width: 100%;
+	-webkit-box-shadow: 0 7px 10px 0 #000000;
+	box-shadow: 0 7px 10px 0 #000000;
+}
+.block header{
+	border-top: 2px solid cyan;
 }
