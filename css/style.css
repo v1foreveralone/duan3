@@ -1,137 +1,38 @@
 *{
-	padding: 0;
-	margin: 0;
+	box-sizing: border-box;
 }
-#big{
-	width: 1000px;
-	border-top:2px; 
-}
-#logo{
+body{
 	background-color: #f6f5f1;
 }
-#dropdown{
-	background: linear-gradient(to right, rgba(0,183,234,1) 0%,rgba(0,29,137,1) 100%); 
-} 
+#page{
+	width: 1000px;
+	margin: 0px auto;
+	/*auto can giua*/
+	min-height:500px;
+	 /*lam xong thi xoa di*/
+	 background-color: #fff;
 }
-#dropdown ul {
-	list-style-type: none;
- 	text-align: left;
+nav#main-nav{
+	background-color: yellow;
 }
-#dropdown ul li a {
-	text-decoration: none; 
-	color: white;
-	display: block;
+#body-page{ 
+	background-color: #fff;
+	min-height:500px;
 }
-#dropdown ul li a:hover {
-	background: #000000;
+section#left-page{
+	width: 750px;
+	padding: 10px;
+	float: left;
+	background-color: blue;
 }
-#dropdown ul li {
 
-	display: inline-table;
-	width: 70px;
-	height: 50px;
-	line-height: 50px;
-	position: relative;
-}
-#dropdown ul li ul li {
-	background: #00ACCE;
-
-}
-#dropdown ul li > ul{
-	display: none;
-	position: absolute;
-}
-#dropdown ul li:hover ul{
-	display: block;
-}
-#gachden{
-	width: 100%;
-	height: 5px;
-	background: gray;
-}
-#gachchanxanh{
-	width: 100%;
-	height: 5px;
-	background: #00ACCE;
-	margin-top: 30px;
-}
-#tableboss{
-	margin-top: 50px;
-	background: white;
-}
-#tableleft{
-	float: left;
-	width: 70%;
-}
-#tableright{
-	margin-left: 10%;
-	float: left;
-	width: 20%;
-	background: black;
-}
-#telephone{
-	margin-top: 30px;
-}
-#telephone #img{
-	width: 45%;
-	float: left;
-}
-#img img{
-	width: 100%;
-}
-#telephone #chu{
-	width: 50%;
+aside{
+	width: 250px;
+	padding: 10px;
 	float: right;
+	background-color: green;
 }
-#chu1{
-	width: 100%;
-	font-weight: bold; 	
-}	
-#new{
-	clear: left;
-} 
-#new1{
-	float: left;
-	width: 50%;
-}
-#new2{
-	float: left;
-	width: 50%;
-}
-#poster1{
-	width: 20%;
-	float: left;
-}
-#new1 #chu{
-	width: 80%;
-	float: right;
-}
-#poster2 {
-	clear: left;
-	float: left;
-	width: 20%;
-}
-#poster3{
-	float: left;
-	width: 20%;
-}
-#new2 #chu{
-	width: 80%;
-	float: right;
-}
-#poster4{
-	clear: left;
-	float: left;
-	width: 20;
-}
-#smallposter{
-	margin-top: 50px;
-}
-#smallposter1{
-	margin-top: 50px;
-}
-#gachchanxanh{
-	width: 100%;
-	height: 5px;
-	background: #00ACCE;
+.clr{clear:both;}
+footer#under-page{
+	background-color: #252525;
 }
